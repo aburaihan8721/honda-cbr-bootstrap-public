@@ -208,6 +208,75 @@ css for footer area
     margin-top: 50px;
 }
 
+/* =======================================
+media queries
+========================================== */
+
+
+@media (max-width: 575px){
+    #header_area .menu{
+        display: none;
+    }
+    #banner p{
+        text-align: center;
+    }
+    #banner h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    #banner .centering{
+        text-align: center;
+    }
+
+    .bikes h2{
+        font-size: 30px;
+    }
+    .news .centering{
+        text-align: center;
+    }
+    .testimonials{
+        text-align: center;
+    }
+    .testimonials h3{
+        font-size: 30px;
+    }
+    .single_clint{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .faq{
+        text-align: center;
+    }
+    .faq h2{
+        font-size: 30px;
+    }
+    .faq .margin{
+        margin-bottom: 20px;
+    }
+    .single_team{
+        margin-top: 30px;
+    }
+    .footer_centering img{
+        position: relative;
+        right: 27%;
+        
+    }
+    .footer_centering p{
+        position: relative;
+        right: 27%;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 /* END */
